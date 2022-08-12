@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="../src/scss/main.scss" />
+    <script defer src="../src/index.js"></script>
+  </head>
+  <body>
+    <main class="calculator">
+      <div>
+        <div class="calculator__display">
+          <p class="calculator__displayPrevValue"></p>
+          <p class="calculator__displayValue">0</p>
+        </div>
+        <div class="calculator__btnContainer">
+          <button class="calculator__btn">%</button>
+          <button class="calculator__btn">CE</button>
+          <button class="calculator__btn">C</button>
+          <button class="calculator__btn">←</button>
+          <button class="calculator__btn">1/x</button>
+          <button class="calculator__btn">x&sup2;</button>
+          <button class="calculator__btn">√x</button>
+          <button class="calculator__btn">÷</button>
+          <button class="calculator__btn">7</button>
+          <button class="calculator__btn">8</button>
+          <button class="calculator__btn">9</button>
+          <button class="calculator__btn">*</button>
+          <button class="calculator__btn">4</button>
+          <button class="calculator__btn">5</button>
+          <button class="calculator__btn">6</button>
+          <button class="calculator__btn">-</button>
+          <button class="calculator__btn">1</button>
+          <button class="calculator__btn">2</button>
+          <button class="calculator__btn">3</button>
+          <button class="calculator__btn">+</button>
+          <button class="calculator__btn">+/-</button>
+          <button class="calculator__btn">0</button>
+          <button class="calculator__btn">.</button>
+          <button class="calculator__btn">=</button>
+        </div>
+      </div>
+      <aside class="calculator__history">
+        <h2 class="calculator__historyTitle">Historia</h2>
+        <div class="calculator__historyContent"></div>
+        <button
+          class="calculator__historyDelete calculator__historyDelete--hide"
+        >
+          Wyczyść
+        </button>
+      </aside>
+    </main>
+  </body>
+</html>
